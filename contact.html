@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact Little Bites for customer support, product inquiries, and feedback. We're here to help with all your baby food questions."
+    />
+    <meta
+      name="keywords"
+      content="contact baby food company, customer service, product support, baby food questions"
+    />
+    <title>Contact Us - Little Bites | Customer Support & Inquiries</title>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Open+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/pages.css">
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <h2>Little Bites</h2>
+          <span class="logo-tagline">Premium Baby Food</span>
+        </div>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="products.html" class="nav-link">Products</a>
+          </li>
+          <li class="nav-item">
+            <a href="testimonials.html" class="nav-link">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a href="blog.html" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link active">Contact</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+      <div class="container">
+        <div class="header-content">
+          <h1>Get in Touch</h1>
+          <p>
+            We're here to help with any questions about our products, nutrition
+            advice, or customer support
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Methods -->
+    <section class="contact-methods">
+      <div class="container">
+        <div class="methods-grid">
+          <div class="method-card">
+            <div class="method-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <h3>Call Us</h3>
+            <p>Speak directly with our customer care team</p>
+            <div class="method-details">
+              <p><strong>1-800-LITTLE-BITES</strong></p>
+              <p>Monday - Friday: 8AM - 8PM EST</p>
+              <p>Saturday: 9AM - 5PM EST</p>
+            </div>
+          </div>
+
+          <div class="method-card">
+            <div class="method-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <h3>Email Support</h3>
+            <p>Send us your questions anytime</p>
+            <div class="method-details">
+              <p><strong>hello@littlebites.com</strong></p>
+              <p>Response within 24 hours</p>
+              <p>Available 24/7</p>
+            </div>
+          </div>
+
+          <div class="method-card">
+            <div class="method-icon">
+              <i class="fas fa-comments"></i>
+            </div>
+            <h3>Live Chat</h3>
+            <p>Get instant help from our support team</p>
+            <div class="method-details">
+              <p><strong>Available Now</strong></p>
+              <p>Monday - Friday: 9AM - 6PM EST</p>
+              <button class="btn btn-primary btn-small">Start Chat</button>
+            </div>
+          </div>
+
+          <div class="method-card">
+            <div class="method-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <h3>Visit Us</h3>
+            <p>Come see our headquarters</p>
+            <div class="method-details">
+              <p><strong>123 Baby Street</strong></p>
+              <p>Nutrition City, NC 12345</p>
+              <p>Tours by appointment</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact-form-section">
+      <div class="container">
+        <div class="form-container">
+          <div class="form-header">
+            <h2>Send Us a Message</h2>
+            <p>
+              Fill out the form below and we'll get back to you as soon as
+              possible
+            </p>
+          </div>
+
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName">First Name *</label>
+                <input type="text" id="firstName" name="firstName" required />
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name *</label>
+                <input type="text" id="lastName" name="lastName" required />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="inquiryType">Type of Inquiry *</label>
+              <select id="inquiryType" name="inquiryType" required>
+                <option value="">Select an option</option>
+                <option value="product-question">Product Question</option>
+                <option value="nutrition-advice">Nutrition Advice</option>
+                <option value="order-support">Order Support</option>
+                <option value="feedback">Feedback</option>
+                <option value="partnership">Partnership Inquiry</option>
+                <option value="media">Media Inquiry</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="babyAge">Baby's Age (Optional)</label>
+              <select id="babyAge" name="babyAge">
+                <option value="">Select age range</option>
+                <option value="0-4-months">0-4 months</option>
+                <option value="4-6-months">4-6 months</option>
+                <option value="6-9-months">6-9 months</option>
+                <option value="9-12-months">9-12 months</option>
+                <option value="12-18-months">12-18 months</option>
+                <option value="18-24-months">18-24 months</option>
+                <option value="2-years-plus">2+ years</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject *</label>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Brief description of your inquiry"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message *</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="6"
+                placeholder="Please provide details about your question or concern..."
+                required
+              ></textarea>
+            </div>
+
+            <div class="form-group checkbox-group">
+              <input type="checkbox" id="newsletter" name="newsletter" />
+              <label for="newsletter"
+                >I'd like to receive updates about new products and parenting
+                tips</label
+              >
+            </div>
+
+            <div class="form-group checkbox-group">
+              <input type="checkbox" id="privacy" name="privacy" required />
+              <label for="privacy"
+                >I agree to the <a href="#">Privacy Policy</a> and
+                <a href="#">Terms of Service</a> *</label
+              >
+            </div>
+
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Frequently Asked Questions</h2>
+          <p>
+            Find quick answers to common questions about our products and
+            services
+          </p>
+        </div>
+
+        <div class="faq-grid">
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>What age can babies start eating Little Bites products?</h3>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                Our products are designed for different stages of your baby's
+                development. Our First Rice Cereal can be introduced as early as
+                4 months (with pediatrician approval), while our purees are
+                perfect for babies 6+ months. Each product clearly indicates the
+                recommended age range on the packaging.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>Are all Little Bites products organic?</h3>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                Yes! All Little Bites products are made with certified organic
+                ingredients. We're committed to providing the highest quality,
+                safest food for your baby, which is why we source only organic
+                fruits, vegetables, grains, and proteins.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>How should I store opened baby food products?</h3>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                Once opened, our products should be refrigerated and consumed
+                within 48 hours. Never feed directly from the jar if you plan to
+                save leftovers - always transfer the portion you'll use to a
+                separate bowl to prevent contamination.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>Do you offer samples or trial sizes?</h3>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                We occasionally offer sample programs and trial packs. Sign up
+                for our newsletter to be notified about sampling opportunities
+                and special promotions. You can also find us at baby and
+                parenting expos throughout the year.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>What if my baby has food allergies?</h3>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                All our products clearly list ingredients and common allergens
+                on the packaging. We also have allergen-free options available.
+                Always consult with your pediatrician before introducing new
+                foods, especially if your baby has known allergies or you have a
+                family history of food allergies.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>Where can I buy Little Bites products?</h3>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                Our products are available at major grocery stores, baby
+                specialty retailers, and online. Use our store locator on the
+                website to find the nearest retailer, or order directly from our
+                online store for home delivery.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Store Locator -->
+    <section class="store-locator">
+      <div class="container">
+        <div class="locator-content">
+          <div class="locator-text">
+            <h2>Find Little Bites Near You</h2>
+            <p>
+              Use our store locator to find retailers carrying Little Bites
+              products in your area
+            </p>
+            <div class="locator-form">
+              <input type="text" placeholder="Enter your ZIP code or city" />
+              <button class="btn btn-primary">Find Stores</button>
+            </div>
+          </div>
+          <div class="locator-map">
+            <div class="map-placeholder">
+              <i class="fas fa-map fa-4x"></i>
+              <p>Interactive Store Map</p>
+              <div class="map-features">
+                <div class="feature">
+                  <i class="fas fa-store"></i>
+                  <span>500+ Retail Locations</span>
+                </div>
+                <div class="feature">
+                  <i class="fas fa-truck"></i>
+                  <span>Online Delivery Available</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Info -->
+    <section class="contact-info-section">
+      <div class="container">
+        <div class="info-grid">
+          <div class="info-card">
+            <h3>Customer Service Hours</h3>
+            <div class="hours-list">
+              <div class="hours-item">
+                <span>Monday - Friday</span>
+                <span>8:00 AM - 8:00 PM EST</span>
+              </div>
+              <div class="hours-item">
+                <span>Saturday</span>
+                <span>9:00 AM - 5:00 PM EST</span>
+              </div>
+              <div class="hours-item">
+                <span>Sunday</span>
+                <span>Closed</span>
+              </div>
+              <div class="hours-item">
+                <span>Holidays</span>
+                <span>Limited Hours</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <h3>Corporate Information</h3>
+            <div class="corporate-info">
+              <p><strong>Little Bites Nutrition Inc.</strong></p>
+              <p>
+                123 Baby Street<br />
+                Nutrition City, NC 12345
+              </p>
+              <p>Tax ID: 12-3456789</p>
+              <p>Founded: 2018</p>
+              <p>Employees: 150+</p>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <h3>Media & Press</h3>
+            <div class="media-info">
+              <p>
+                For media inquiries, press releases, and partnership
+                opportunities:
+              </p>
+              <p><strong>press@littlebites.com</strong></p>
+              <p><strong>partnerships@littlebites.com</strong></p>
+              <div class="media-links">
+                <a href="#" class="media-link">Press Kit</a>
+                <a href="#" class="media-link">Brand Assets</a>
+                <a href="#" class="media-link">Company News</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <div class="footer-logo">
+              <h3>Little Bites</h3>
+              <p>Nourishing your little one with love and care</p>
+            </div>
+            <div class="social-links">
+              <a href="#" class="social-link"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="products.html">Products</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="testimonials.html">Reviews</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Support</h4>
+            <ul class="footer-links">
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Shipping Info</a></li>
+              <li><a href="#">Returns</a></li>
+              <li><a href="#">Customer Service</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Contact Info</h4>
+            <div class="contact-info">
+              <p><i class="fas fa-phone"></i> 1-800-LITTLE-BITES</p>
+              <p><i class="fas fa-envelope"></i> hello@littlebites.com</p>
+              <p>
+                <i class="fas fa-map-marker-alt"></i> 123 Baby Street, Nutrition
+                City
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            &copy; 2024 Little Bites. All rights reserved. |
+            <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
